@@ -1,11 +1,13 @@
 {
     "name": "dataserve/client-php",
     "description": "Interface to the Dataserve service for your backend model layer",
+    "keywords": ["dataserve", "db", "cache"],
     "type": "library",
     "authors": [
         {
-            "name": "Kevin",
-            "email": "kevindeeg@gmail.com"
+            "name": "Kevin Deegan",
+            "email": "kevindeeg@gmail.com",
+            "homepage": "https://github.com/kdeegan"
         }
     ],
     "require": {
