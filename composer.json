@@ -8,5 +8,15 @@
             "email": "kevindeeg@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dataserve\\": "Dataserve/"
+        }
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^2.4"
+    }
 }
