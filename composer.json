@@ -1,0 +1,12 @@
+{
+    "name": "dataserve/client-php",
+    "description": "Interface to the Dataserve service for your backend model layer",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kevin",
+            "email": "kevindeeg@gmail.com"
+        }
+    ],
+    "require": {}
+}

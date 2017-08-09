@@ -1,0 +1,1 @@
+Library for accessing the Dataserve service. Used to connect through either TCP or UNIX sockets.
