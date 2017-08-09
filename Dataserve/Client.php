@@ -65,11 +65,11 @@ class Client
 
         $result = self::$predis->executeRaw([self::ALLOWED_COMMANDS[$command], $dbTable, json_encode($input)]);
 
-        $result_json = json_decode($result, true);
+        $resultJson = json_decode($result, true);
 
-        if (empty($result_json['status'])) {
-            if (isset($result_json['status'])) {
-                throw new Exception($result_json['error']);
+        if (empty($resultJson['status'])) {
+            if (isset($resultJson['status'])) {
+                throw new Exception($resultJson['error']);
             }
 
             throw new Exception('Unknown result: ' . $result);
@@ -77,7 +77,7 @@ class Client
 
         $timeRun = microtime(true) - $timeStart;
 
-        return $result_json;
+        return $resultJson;
     }
 
     public function getAllowedCommands()
