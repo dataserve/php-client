@@ -1,5 +1,5 @@
 {
-    "name": "dataserve/client-php",
+    "name": "dataserve/client",
     "description": "Interface to the Dataserve service for your backend model layer",
     "keywords": ["dataserve", "db", "cache"],
     "type": "library",
