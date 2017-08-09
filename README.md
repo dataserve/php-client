@@ -1,1 +1,1 @@
-Library for accessing the Dataserve service. Used to connect through either TCP or UNIX sockets.
+Library for accessing the [Dataserve service](https://github.com/dataserve/dataserve). Used to connect to the Redis protocol using either TCP or UNIX sockets.
